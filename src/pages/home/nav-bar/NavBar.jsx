@@ -7,6 +7,17 @@ import {
   ShoppingCartIcon,
   UserRound,
 } from "lucide-react";
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuIndicator,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+  NavigationMenuViewport,
+} from "@/components/ui/navigation-menu";
+
 const NavBar = () => {
   return (
     <div className="mx-5 md:mx-80">
@@ -17,29 +28,45 @@ const NavBar = () => {
         <div className="flex gap-2">
           <div className="flex gap-2">
             <Button
-              className="rounded-full font-Georama text-base flex items-center"
+              className="rounded-full font-Georama font-semibold flex items-center"
               variant="ghost"
             >
               <Headset className="mr-2" />
               Contact us
             </Button>
+
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger>
+                    <div className=" font-Georama font-semibold  flex items-center">
+                      <Globe className="mr-2" />
+                      IN/EUR
+                    </div>
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <NavigationMenuLink>
+                      <div className="p-4">
+                        <Button variant="ghost">Language - IN</Button>
+                        <Button className="mt-4" variant="ghost">
+                          Currency - ERU
+                        </Button>
+                      </div>
+                    </NavigationMenuLink>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
+
             <Button
-              className="rounded-full font-Georama text-base flex items-center"
-              variant="ghost"
-            >
-              <Globe className="mr-2" />
-              IN/EUR
-              <ChevronDown className="w-4 h-4 mt-1 ml-1" />
-            </Button>
-            <Button
-              className="rounded-full font-Georama text-base flex items-center"
+              className="rounded-full font-Georama font-semibold  flex items-center"
               variant="ghost"
             >
               <ShoppingCartIcon className="mr-2" />
               Cart
             </Button>
             <Button
-              className="rounded-full font-Georama text-base flex items-center"
+              className="rounded-full font-Georama font-semibold flex items-center"
               variant="ghost"
             >
               <UserRound className="mr-2" />
