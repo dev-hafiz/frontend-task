@@ -3,38 +3,40 @@
 
 import { Button } from "@/components/ui/button";
 import banner from "../../../assets/images/download.webp";
+import banner2 from "../../../assets/images/download2.webp";
 import shopify from "../../../assets/images/shopify.svg";
 
 const Hero = () => {
   return (
-    <div className="md:mt-0 mt-40">
-      <div class="mx-auto h-full px-4 py-5 sm:max-w-xl md:max-w-full md:px-24 md:py-7 lg:max-w-screen-xl lg:px-6">
-        <div class="flex flex-col items-center justify-between lg:flex-row">
+    <div className="md:mt-0  lg:bg-white bg-[#FAF6EF]">
+      <div className="mx-auto h-full px-4 py-5 sm:max-w-xl md:max-w-full md:px-24 md:py-7 lg:max-w-screen-xl lg:px-6">
+        <div className="flex flex-col-reverse items-center justify-between lg:flex-row">
           <div className="p-4">
-            <div class="lg:max-w-xl ">
-              <h2 className="font-Georama -mt-24 text-2xl lg:text-6xl	font-medium">
+            <div className="lg:max-w-xl ">
+              <h2 className="font-Georama -mt-5 lg:-mt-24 text-4xl lg:text-6xl font-medium">
                 Print on demand for your ecommerce business
               </h2>
               <h4 className="font-Georama text-2xl font-medium mt-8 mb-3">
                 Sign up for free and only pay for what you sell
               </h4>
-              <p className="font-Georama text-base text-[#2f2f2f] tracking-wide	 mb-10">
+              <p className="font-Georama text-base text-[#2f2f2f] tracking-wide mb-10">
                 Turn your passion into profit with the world's largest{" "}
                 <span className="underline">print on demand</span> network.
               </p>
             </div>
-            <div className="flex  gap-4">
-              <Button className="rounded-full ">Get start for free</Button>
-              <Button variant="outline" className="rounded-full ">
+            <div className="flex gap-4">
+              <Button className="rounded-full">Get start for free</Button>
+              <Button variant="outline" className="rounded-full">
                 See ours products
               </Button>
             </div>
           </div>
-          <div class="relative  lg:w-3/6">
-            <img src={banner} alt="Banner" />
+          <div className="relative  lg:py-0 py-8 lg:w-3/6">
+            <img src={banner} alt="Banner" className="lg:block hidden" />
+            <img src={banner2} alt="Banner" className="lg:hidden block" />
           </div>
         </div>
-        <div className="-mt-28 pl-5 ">
+        <div className="-mt-0 lg:-mt-28 pl-5 lg:pb-0 pb-7">
           <img src={shopify} className="w-[171px] h-[99px]" alt="ratings" />
           <div className="flex items-center -mt-5 ">
             <svg
@@ -97,9 +99,9 @@ const Hero = () => {
                 clipRule="evenodd"
               />
             </svg>
-            <span className="font-Georama relative text-base  hover:text-[#9D9E9D]  text-[#353535] opacity-70 ml-3">
+            <span className="font-Georama cursor-pointer relative text-base hover:text-[#9D9E9D] text-[#353535] opacity-70 ml-3">
               4.8/5
-              <span className="-left-32 top-2  absolute">
+              <span className="-left-32 top-2 absolute">
                 <br /> based on 887 reviews
               </span>
             </span>
