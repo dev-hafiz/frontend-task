@@ -10,7 +10,7 @@ import { ChevronRight } from "lucide-react";
 
 export function FilterBar() {
   return (
-    <div className="lg:block hidden sticky top-16 bg-white z-50">
+    <div className="lg:block hidden sticky top-16 bg-white z-40">
       <div className="px-5 lg:px-80 flex gap-3 border-t-[1px] border-b-[1px] py-2">
         <div>
           <NavigationMenu>
