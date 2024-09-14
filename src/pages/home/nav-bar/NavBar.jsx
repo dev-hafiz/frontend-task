@@ -14,7 +14,7 @@ import SideBar from "@/_components/side-bar/SideBar";
 
 const NavBar = () => {
   return (
-    <div className="mx-5 lg:mx-80 ">
+    <div className="px-5 lg:px-80  sticky top-0 bg-white z-50">
       <div className="p-4 flex flex-wrap justify-between md:justify-between">
         <div className="lg:hidden block">
           {/* sheet  */}
