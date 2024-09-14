@@ -14,13 +14,13 @@ import SideBar from "@/_components/side-bar/SideBar";
 
 const NavBar = () => {
   return (
-    <div className="px-5 lg:px-80  sticky top-0 bg-white z-50">
+    <div className="px-5 lg:px-80  sticky top-0 bg-white z-50 ">
       <div className="p-4 flex flex-wrap justify-between md:justify-between">
-        <div className="lg:hidden block">
-          {/* sheet  */}
-          <SideBar />
-        </div>
-        <div>
+        <div className="flex items-center gap-5">
+          <div className="lg:hidden block">
+            {/* sheet  */}
+            <SideBar />
+          </div>
           <img src={logo} alt="website logo" className="w-[130px] h-[27px]" />
         </div>
         <div className="flex gap-2">
