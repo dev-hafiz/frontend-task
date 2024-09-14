@@ -1,6 +1,8 @@
 import { FilterBar } from "../filter-bar/FilterBar";
+import GelatoConnect from "../GelatoConnect/GelatoConnect";
 import Hero from "../hero/Hero";
 import NavBar from "../nav-bar/NavBar";
+import PrintOnDemand from "../print-on-demand/PrintOnDemand";
 import SuccessInfo from "../success-info/SuccessInfo";
 import TopBar from "../top-bar/TopBar";
 import WhyGelato from "../why-gelato/WhyGelato";
@@ -14,6 +16,8 @@ const Home = () => {
       <Hero />
       <SuccessInfo />
       <WhyGelato />
+      <PrintOnDemand />
+      <GelatoConnect />
     </div>
   );
 };
