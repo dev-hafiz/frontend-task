@@ -8,7 +8,7 @@ import shopify from "../../../assets/images/shopify.svg";
 
 const Hero = () => {
   return (
-    <div className="md:mt-0  lg:bg-white bg-[#FAF6EF]">
+    <div className="md:mt-0 mb-2  lg:bg-white bg-[#FAF6EF]">
       <div className="mx-auto h-full px-4 py-5 sm:max-w-xl md:max-w-full md:px-24 md:py-7 lg:max-w-screen-xl lg:px-6">
         <div className="flex flex-col-reverse items-center justify-between lg:flex-row">
           <div className="p-4">
