@@ -34,28 +34,30 @@ const NavBar = () => {
                 Contact us
               </Button>
 
-              <NavigationMenu>
-                <NavigationMenuList>
-                  <NavigationMenuItem>
-                    <NavigationMenuTrigger>
-                      <div className=" font-Georama font-semibold  flex items-center">
-                        <Globe className="mr-2" />
-                        IN/EUR
-                      </div>
-                    </NavigationMenuTrigger>
-                    <NavigationMenuContent>
-                      <NavigationMenuLink>
-                        <div className="p-4">
-                          <Button variant="ghost">Language - IN</Button>
-                          <Button className="mt-4" variant="ghost">
-                            Currency - ERU
-                          </Button>
+              <div className="z-50">
+                <NavigationMenu>
+                  <NavigationMenuList>
+                    <NavigationMenuItem>
+                      <NavigationMenuTrigger>
+                        <div className=" font-Georama font-semibold  flex items-center">
+                          <Globe className="mr-2" />
+                          IN/EUR
                         </div>
-                      </NavigationMenuLink>
-                    </NavigationMenuContent>
-                  </NavigationMenuItem>
-                </NavigationMenuList>
-              </NavigationMenu>
+                      </NavigationMenuTrigger>
+                      <NavigationMenuContent>
+                        <NavigationMenuLink>
+                          <div className="p-4">
+                            <Button variant="ghost">Language - IN</Button>
+                            <Button className="mt-4" variant="ghost">
+                              Currency - ERU
+                            </Button>
+                          </div>
+                        </NavigationMenuLink>
+                      </NavigationMenuContent>
+                    </NavigationMenuItem>
+                  </NavigationMenuList>
+                </NavigationMenu>
+              </div>
 
               <Button
                 className="rounded-full font-Georama font-semibold  flex items-center"

@@ -1,4 +1,5 @@
 import { FilterBar } from "../filter-bar/FilterBar";
+import Footer from "../footer/Footer";
 import GelatoConnect from "../GelatoConnect/GelatoConnect";
 import Hero from "../hero/Hero";
 import MeetSlot from "../MeetSlot/MeetSlot";
@@ -20,6 +21,7 @@ const Home = () => {
       <PrintOnDemand />
       <GelatoConnect />
       <MeetSlot />
+      <Footer />
     </div>
   );
 };
