@@ -1,8 +1,8 @@
-## 𝐆𝐞𝐥𝐚𝐭𝐨-𝐈𝐧𝐬𝐩𝐢𝐫𝐞𝐝 𝐇𝐨𝐦𝐞𝐩𝐚𝐠𝐞 - 𝐑𝐞𝐚𝐜𝐭𝐉𝐒
+## 𝐆𝐞𝐥𝐚𝐭𝐨-𝐈𝐧𝐬𝐩𝐢𝐫𝐞𝐝 𝐇𝐨𝐦𝐞𝐩𝐚𝐠𝐞 - 𝐑𝐞𝐚𝐜𝐭𝐉𝐒 [👉 Visit Live Demo 🔗](https://frontend-task-teal.vercel.app/)
 
 This project is a ReactJS implementation of a homepage layout inspired by the design and functionality of the Gelato website (https://www.gelato.com/in).  The goal was to showcase skills in React development, responsiveness, and attention to detail.
 
-𝐋𝐢𝐯𝐞 𝐃𝐞𝐦𝐨
+ [👉 𝐋𝐢𝐯𝐞 𝐃𝐞𝐦𝐨 🔗](https://frontend-task-teal.vercel.app/)
 
 View the live Demo of the project here: [Live Link](Your Live Demo Link)
 
@@ -13,7 +13,8 @@ View the live Demo of the project here: [Live Link](Your Live Demo Link)
  - 𝐂𝐨𝐦𝐩𝐨𝐧𝐞𝐧𝐭-𝐁𝐚𝐬𝐞𝐝 𝐀𝐫𝐜𝐡𝐢𝐭𝐞𝐜𝐭𝐮𝐫𝐞: Built with reusable and maintainable React components.
  - 𝐃𝐞𝐬𝐢𝐠𝐧 𝐚𝐧𝐝 𝐒𝐭𝐲𝐥𝐢𝐧𝐠: Built using Tailwind CSS and ShadCN UI, two popular CSS frameworks, to closely match the Gelato homepage layout with a clean and responsive design.
 
-𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐔𝐬𝐞𝐝
+𝐓𝐞𝐜𝐡𝐧𝐨𝐥𝐨𝐠𝐢𝐞𝐬 𝐔𝐬𝐞𝐝 [👉 Visit Live Demo 🔗](https://frontend-task-teal.vercel.app/)
+
  - 𝐑𝐞𝐚𝐜𝐭𝐉𝐒: Frontend framework for building user interfaces
  - 𝐂𝐒𝐒 𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤 (𝐒𝐡𝐚𝐝𝐜𝐧 𝐔𝐈): For styling components
  - 𝐕𝐞𝐫𝐜𝐞𝐥: For deployment and live demo hostingb 
@@ -64,7 +65,8 @@ yarn run dev
 ```
 
 5. View in the browser:
-Once the server is running, the application will be available at  http://localhost:5173/. Open this URL in your browser to view the homepage.
+Once the server is running, the application will be available at  http://localhost:5173/. Open this URL in your browser to view the homepage. [👉 Visit Live Demo 🔗](https://frontend-task-teal.vercel.app/)
+
 
 
 𝑨𝒖𝒕𝒉𝒐𝒓
