@@ -5,7 +5,7 @@ const GelatoConnect = () => {
     <div className="lg:my-10 mb-2 lg:p-0 p-5">
       <div className="mx-auto h-full px-4 sm:max-w-xl md:max-w-full md:px-24 lg:max-w-screen-xl lg:px-6">
         <div className="flex gap-5 flex-col items-center justify-between lg:flex-row">
-          <div className="lg:w-[644px] lg:h-[644px]">
+          <div className="lg:w-[644px] lg:h-[644px] ">
             <img src={banner} alt="Banner" className="w-full" />
           </div>
 

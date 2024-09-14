@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-/* eslint-disable react/no-unknown-property */
 
 import { Button } from "@/components/ui/button";
 import banner from "../../../assets/images/download.webp";
